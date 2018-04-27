@@ -35,7 +35,7 @@ namespace _4.ReadInputFromAUser
             //WARNING: This is an infinite loop, you would need to close the program manually unless you use a "break;"
             while (true)
             {
-                Console.WriteLine("Would you like to continue this loop? Type yes to continue");
+                Console.WriteLine("Would you like to break this loop? Type yes to continue");
                 string userResponse = Console.ReadLine();//We can store the result of Console.Readline() into a string! This command also stops the code until someone enters code.
 
                 if(userResponse == "yes")//Note this: == and = are different. == checks if two things are the same, and = makes them the same.
